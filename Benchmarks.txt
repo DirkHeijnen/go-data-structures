@@ -1,0 +1,74 @@
+Table
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Set	 		770878274		1.5ns				60B					0
+SetAll	 		135720			8671ns				0B					0
+
+
+HashMap
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Set	 		2731342			447ns				133B					2
+Get	 		8044674			137ns				0B					0
+HasKey			9903564			157ns				0B					0
+
+
+Stack
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Push	 		74526754		23ns				49B					0
+Pop	 		489482250		4ns				0B					0
+
+
+Graph
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+AddNode	 		17649393		67ns				51B					1
+AddEdge			7208860			185ns				67B					1
+
+
+Queue
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Enqueue 		61823802		21ns				47B					0
+Dequeue 		696832546		2ns				0B					0
+
+
+
+PriorityQueue
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Enqueue 		48096577		24ns				48B					0
+Dequeue 		8950608			163ns				0B					0
+
+
+
+MinHeap
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Insert			85289664		19ns				43B					0
+Remove			15215913		85ns				0B					0
+
+
+MaxHeap
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Insert			23524060		53ns				40B					0
+Remove			20912407		71ns				0B					0
+
+
+Heap (With custom compare function)
+=================
+Operation		Number of operations	Avg. time per operations	Bytes allocated per operation		Memory allocations per operation
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Insert			64426762		16ns				45B					0
+Remove			6711799			71ns				0B					0
+
